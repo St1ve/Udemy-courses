@@ -16,7 +16,7 @@ body {
 h1 {
 	background: #e73e41;
 	color: #f7f7f7;
-	margin: 0px auto;
+	margin: 0;
 	padding: 10px 20px;
 	text-transform: uppercase;
 	font-size: 24px;
@@ -76,7 +76,11 @@ span {
 
 .completed {
 	color: gray;
-	text-decoration: line-through;
+   text-decoration: line-through;
+}
+
+.fa-pencil-alt {
+   float: right;
 }
 
 #container {
@@ -85,3 +89,4 @@ span {
 	width: 300px;
 	margin: 0 auto;
 }
+
